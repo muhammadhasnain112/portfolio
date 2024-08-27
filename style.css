@@ -677,13 +677,39 @@ main {
   width: 10%;
   border-radius: 20px;
   background-color: #60A5FA;
+  position: relative;
+  animation-name: loader1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
 }
+@keyframes loader1{
+  from{
+    width: 0px;
+  }
+  to{
+    width: 30px;
+  }
+}
+
 
 .loa1 {
   height: 3vh;
   width: 99%;
   border-radius: 20px;
   background-color: #60A5FA;
+  position: relative;
+  animation-name: loader;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes loader{
+  from{
+    width: 0px;
+  }
+  to{
+    width: 240px;
+  }
 }
 
 .loa2 {
@@ -691,13 +717,41 @@ main {
   width: 85%;
   border-radius: 20px;
   background-color: #60A5FA;
+  position: relative;
+  animation-name: loader2;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+  
 }
+@keyframes loader2{
+  from{
+    width: 0px;
+  }
+  to{
+    width: 200px;
+  }
+}
+
 
 .loa3 {
   height: 3vh;
   width: 20%;
   border-radius: 20px;
   background-color: #60A5FA;
+  position: relative;
+  animation-name: loader3;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+@keyframes loader3{
+  from{
+    width: 0px;
+  }
+  to{
+    width: 70px;
+  }
 }
 
 .loader1>h4 {
